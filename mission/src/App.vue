@@ -21,9 +21,10 @@ export default {
       cnt: 0,
     };
   },
+  // 문자열 회전 함수, 클릭 횟수 카운트 함수
   methods: {
     changeMessage() {
-      const array = this.message.split('');
+      const array = this.message.split('');// String을 배열로 변환
       const temp = array.shift();
       array.push(temp);
       this.message = array.join('');
@@ -31,7 +32,9 @@ export default {
     changeKeyword(e) {
       this.message = e.target.value;
     },
+    // 한국어 타이핑 문제 해결
     countClick(cnt) {
+      // eslint-disable-next-line
       alert(`${this.message} ${cnt}`);
     },
   },

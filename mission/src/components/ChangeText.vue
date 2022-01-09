@@ -8,25 +8,24 @@
 
 <script>
 export default {
-    name: 'ChangeText',
-    props:{
-        propsmessage: {
-            type: String,
-        }
+  name: 'ChangeText',
+  props: {
+    propsmessage: {
+      type: String,
     },
-    data(){
-        return{
-        message: this.propsmessage,
-        }
-    },
-     methods: {
+  },
+  data() {
+    return {
+      message: this.propsmessage,
+    };
+  },
+  methods: {
     changeMessage() {
       const array = this.message.split('');
       const temp = array.shift();
       array.push(temp);
       this.message = array.join('');
-        },
-    }
-}
+    },
+  },
+};
 </script>
-

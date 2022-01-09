@@ -6,19 +6,19 @@
 
 <script>
 export default {
-    name: 'AlertCount',
-    props:{
-        counter: 0
+  name: 'AlertCount',
+  props: {
+    counter: 0,
+  },
+  data() {
+    return {
+      cnt: this.counter,
+    };
+  },
+  method: {
+    countClick() {
+      cnt += 1;
     },
-    data(){
-        return{
-            cnt: this.counter,
-        }
-    },
-    method: {
-        countClick() {
-            cnt += 1;
-        },
-    }
-}
+  },
+};
 </script>
