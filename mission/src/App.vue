@@ -7,6 +7,7 @@
   <router-view/>
   <input type = "text" v-model = "message" @input = "changeKeyword"/>
   <button v-on:click="changeMessage">제출</button>
+  <button v-on:click="countClick (cnt += 1)">알림</button>
   <p>{{ message }}</p>
 </div>
 </template>
@@ -29,6 +30,9 @@ export default {
     },
     changeKeyword(e) {
       this.message = e.target.value;
+    },
+    countClick(cnt) {
+      alert(`${this.message} ${cnt}`);
     },
   },
 };
