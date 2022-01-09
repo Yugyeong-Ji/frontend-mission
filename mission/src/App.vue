@@ -5,8 +5,31 @@
     <router-link to="/about">About</router-link>
   </div>
   <router-view/>
-  </div>
+  <input type = "text" v-model="message"/>
+  <button v-on:click="changeMessage">제출</button>
+  <p>{{ message }}</p>
+</div>
 </template>
+
+<script>
+export default {
+  name: 'App',
+  data() {
+    return {
+      message: '',
+      cnt: 0,
+    };
+  },
+  methods: {
+    changeMessage() {
+      const array = this.message.split('');
+      const temp = array.shift();
+      array.push(temp);
+      this.message = array.join('');
+    },
+  },
+};
+</script>
 
 <style>
 #app {
