@@ -5,7 +5,7 @@
     <router-link to="/about">About</router-link>
   </div>
   <router-view/>
-  <input type = "text" v-model="message"/>
+  <input type = "text" v-model = "message" @input = "changeKeyword"/>
   <button v-on:click="changeMessage">제출</button>
   <p>{{ message }}</p>
 </div>
@@ -26,6 +26,9 @@ export default {
       const temp = array.shift();
       array.push(temp);
       this.message = array.join('');
+    },
+    changeKeyword(e) {
+      this.message = e.target.value;
     },
   },
 };
