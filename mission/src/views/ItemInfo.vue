@@ -82,6 +82,9 @@ INFO<br>
      <hr>
       </div>
     </div>
+    <div class="footer">
+    <b><h2>{{discountedPrice}}원 구매</h2></b>
+  </div>
 </div>
 </template>
 
@@ -142,4 +145,14 @@ export default {
   margin-bottom: 60px;
    font-family: 'GowunBatang-Regular';
 }
+.footer{
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:60px;
+  width:100%;
+  background:rgb(226, 195, 223);
+  color: white;
+  font-family: 'InfinitySans-RegularA1';
+  }
 </style>
