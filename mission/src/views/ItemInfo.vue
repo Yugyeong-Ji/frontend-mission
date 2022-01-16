@@ -53,6 +53,35 @@ INFO<br>
 신축성-없음｜계절감- 봄,가을｜안감-있음<br>
     </h5>
   </div>
+  <div class="review1">
+      <h2>Review</h2>
+      <div style = "margin-top:7px; margin-left: 3px; text-align:left; font-size:15px; float:left;">
+      <b><h>2mo*****</h></b>
+      </div>
+      <div style = "margin-top:7px; margin-left: 3px; text-align:left; font-size:10px; float:left;">
+      <h>2021.04.11</h>
+      </div>
+      <div style = "text-align: left; margin-top: 25px;">
+    <br><b><h>최고예요</h></b>
+    <img class="reviewImg" alt="reviewImg" src="../assets/reviewImg.png">
+     <br><h>가격도 합리적이고 만족스럽습니다.</h>
+      </div>
+    </div>
+    <div class="review2">
+      <hr>
+      <div style = "margin-top:7px; margin-left: 3px; text-align:left; font-size:15px; float:left;">
+      <b><h>tn***</h></b>
+      </div>
+      <div style = "margin-top:7px; margin-left: 3px; text-align:left; font-size:10px; float:left;">
+      <h>2021.09.29</h>
+      </div>
+      <div style = "text-align: left; margin-top: 13px;">
+    <br><b><h>만족해요</h></b>
+     <br><h>재질도 괜찮고 예쁜 것 같습니다!!</h>
+     <br>
+     <hr>
+      </div>
+    </div>
 </div>
 </template>
 
@@ -99,5 +128,18 @@ export default {
 .ItemInfo{
   margin-top: 60px;
   font-family: 'GowunBatang-Regular';
+}
+.reviewImg{
+  float: right;
+  margin-right: 20px;
+  width: 80px;
+}
+.review1{
+   font-family: 'GowunBatang-Regular';
+}
+.review2{
+  margin-top: 38px;
+  margin-bottom: 60px;
+   font-family: 'GowunBatang-Regular';
 }
 </style>
