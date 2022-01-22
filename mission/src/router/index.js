@@ -4,7 +4,11 @@ import ItemInfoPage from '@/views/ItemInfo.vue';
 const routes = [
   {
     path: '/',
+<<<<<<< HEAD
     name: 'Home',
+=======
+    name: 'ItemInfoPage',
+>>>>>>> origin/develop
     component: ItemInfoPage,
   },
   {
