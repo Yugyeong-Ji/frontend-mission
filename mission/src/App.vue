@@ -3,7 +3,7 @@
 </template>
 
 <style>
-body{
+html, body{
   margin: 0;
 }
 #app {

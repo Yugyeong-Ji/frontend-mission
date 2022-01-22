@@ -1,6 +1,6 @@
 <template>
 <div id="app">
-  <div class="navBar">
+  <div class="navbar" :class="{ 'navbar--hidden': !showNavbar}">
     <h3>{{ brand }}</h3>
   </div>
 </div>
@@ -15,12 +15,6 @@ export default {
       brand: '@Ggang_marcket',
     };
   },
-  mounted() {
-    window.addEventListener('scroll', this.onScroll);
-  },
-  beforeUnmount() {
-    window.removeEventListener('scroll', this.onScroll);
-  },
   methods: {
     onScroll() {
       const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
@@ -34,11 +28,17 @@ export default {
       this.lastScrollPosition = currentScrollPosition;
     },
   },
+  mounted() {
+    window.addEventListener('scroll', this.onScroll);
+  },
+  beforeUnmount() {
+    window.removeEventListener('scroll', this.onScroll);
+  },
 };
 </script>
 
 <style scoped>
-.navBar {
+.navbar {
     height: 65px;
     width: 100%;
     background: hsl(252, 48%, 94%);
