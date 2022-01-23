@@ -127,11 +127,13 @@ h4{
 .item7{
   margin-top: 25px;
   margin-left: 35px;
+  margin-bottom: 100px;
   float: left;
 }
 .item8{
   margin-top: 25px;
   margin-right: 35px;
+  margin-bottom: 100px;
   float: right;
 }
 img{
