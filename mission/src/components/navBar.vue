@@ -21,7 +21,7 @@ export default {
       if (currentScrollPosition < 0) {
         return;
       }
-      if (Math.abs(currentScrollPosition - this.lastScrollPosition) < 65) {
+      if (Math.abs(this.lastScrollPosition - currentScrollPosition) < 60) {
         return;
       }
       this.showNavbar = currentScrollPosition < this.lastScrollPosition;

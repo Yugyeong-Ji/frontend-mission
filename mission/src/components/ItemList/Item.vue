@@ -5,7 +5,7 @@
         <br>
       <h5 style="color:red;" v-if="ItemData[0].discount">
         {{ ItemData[0].discountRate+"%"}}</h5>
-      <h5>{{ ItemData[0].price }}원</h5>
+      <h5>{{  ItemData[0].price }}원</h5>
       <h4>{{ ItemData[0].ItemName }}</h4>
     </div>
 
