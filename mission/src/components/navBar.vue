@@ -12,7 +12,7 @@ export default {
     return {
       showNavbar: true,
       lastScrollPosition: 0,
-      brand: '@Ggang_marcket',
+      brand: '@깽_마켓',
     };
   },
   methods: {
@@ -41,7 +41,7 @@ export default {
 .navbar {
     height: 65px;
     width: 100%;
-    background: hsl(252, 48%, 94%);
+    background: hsl(33, 15%, 51%);
     position: fixed;
     transform: translate3d(0, 0, 0);
     transition: 0.1s all ease-out;
@@ -51,6 +51,9 @@ export default {
     transform: translate3d(0, -100%, 0);
 }
 h3{
-    color:hsl(252, 100%, 67%);
+  text-align: left;
+  margin-left:30px;
+  font-family: 'Y_Spotlight';
+  color:hsl(0, 0%, 100%);
 }
 </style>

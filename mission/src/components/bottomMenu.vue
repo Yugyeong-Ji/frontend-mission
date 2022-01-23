@@ -13,9 +13,8 @@
 export default {
   data() {
     return {
-      menus: ['홈', '찜', '장바구니', '마이 페이지'],
-      icon: ['https://search.pstatic.net/sunny/?src=https%3A%2F%2Fimage.flaticon.com%2Ficons%2Fpng%2F512%2F25%2F25794.png&type=a340',
-        'https://search.pstatic.net/sunny/?src=https%3A%2F%2Fimg.flaticon.com%2Ficons%2Fpng%2F512%2F138%2F138454.png%3Fsize%3D1200x630f%26pad%3D10%2C10%2C10%2C10%26ext%3Dpng%26bg%3DFFFFFFFF&type=sc960_832',
+      menus: ['홈', '찜', '장바구니', '마이페이지'],
+      icon: ['https://search.pstatic.net/sunny/?src=https%3A%2F%2Fimage.flaticon.com%2Ficons%2Fpng%2F512%2F238%2F238741.png&type=sc960_832',
       ],
     };
   },
@@ -35,15 +34,18 @@ export default {
     position: fixed;
   }
 .menu--item {
-    padding : 10px;
+    padding : 0;
   }
 .menu--item a {
     font-size: 13px;
     user-select: none;
     color : rgb(128, 128, 128);
+    font-family: 'Pretendard-Regular';
   }
 .menu img{
       width: 30px;
       height: 30px;
+      padding-left:10px;
+      padding-right:10px;
   }
 </style>

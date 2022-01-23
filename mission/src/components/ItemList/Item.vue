@@ -89,9 +89,11 @@ export default {
 
 <style>
 h5{
+  font-family: 'Pretendard-Regular';
   display: inline;
 }
 h4{
+  font-family: 'Pretendard-Regular';
   margin: 0;
 }
 .item1{
@@ -127,13 +129,13 @@ h4{
 .item7{
   margin-top: 25px;
   margin-left: 35px;
-  margin-bottom: 100px;
+  margin-bottom: 90px;
   float: left;
 }
 .item8{
   margin-top: 25px;
   margin-right: 35px;
-  margin-bottom: 100px;
+  margin-bottom: 90px;
   float: right;
 }
 img{
