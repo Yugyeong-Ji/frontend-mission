@@ -88,6 +88,9 @@ export default {
 </script>
 
 <style>
+.item-list-item{
+  padding-top: 80px;
+}
 h5{
   font-family: 'Pretendard-Regular';
   display: inline;
@@ -97,12 +100,10 @@ h4{
   margin: 0;
 }
 .item1{
-  margin-top: 80px;
   margin-left: 35px;
   float: left;
 }
 .item2{
-  margin-top: 80px;
   margin-right: 35px;
   float: right;
 }

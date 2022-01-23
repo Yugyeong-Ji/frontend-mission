@@ -29,7 +29,7 @@ export default [{
 {
   ItemName: 'Product5',
   price: '13,000',
-  image: 'https://sep-item.ssgcdn.com/62/25/37/item/1000267372562_i1_350.jpgg',
+  image: 'https://sep-item.ssgcdn.com/62/25/37/item/1000267372562_i1_350.jpg',
   discount: false,
   discountRate: '',
 },
