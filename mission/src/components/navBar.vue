@@ -45,6 +45,7 @@ export default {
     position: fixed;
     transform: translate3d(0, 0, 0);
     transition: 0.1s all ease-out;
+    border-radius: 3px;
 }
 .navbar.navbar--hidden {
     box-shadow: none;
@@ -52,8 +53,8 @@ export default {
 }
 h3{
   text-align: left;
-  margin-left:30px;
-  font-family: 'Y_Spotlight';
+  margin-left:20px;
+  font-family: 'Eulyoo1945-SemiBold';
   color:hsl(0, 0%, 100%);
 }
 </style>
